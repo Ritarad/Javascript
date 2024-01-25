@@ -50,3 +50,20 @@ if (nr1 > nr2 && nr1 === 20) {
 if (nr2 > nr1 && nr2 < 100) {
   console.log('antras skaičius yra didesnis už pirmąjį ir yra mažesnis už 100');
 }
+
+//=================
+
+let darboValandos = 8;
+let kepaluKiekisPerValanda = 15;
+let kiekDarbuotojųTuriKepykla = 5;
+let vienoKepaloSavikaina = 0.79;
+let vienoKepaloPardavimoKaina = 1.5;
+let uzsakymaiKiek = 40;
+
+let kepiniai =
+  darboValandos * kepaluKiekisPerValand * kiekDarbuotojųTuriKepykla;
+
+console.log('kepalu skaicius');
+
+let savikaina = vienoKepaloPardavimoKaina / vienoKepaloSavikaina;
+console.log('savikaina');
